@@ -27,9 +27,9 @@ describe("get_1_or_0 function", () => {
 
 /** 임의의 수 반환하기 : 0 ~ 입력값 사의 정수 */
 describe("get_random function", () => {
-  const testInput = get_1_or_0() + 1;
+  const testInput = Math.floor(Math.random() * 10);
 
-  it("has zero error", () => {
+  it("has no error", () => {
     expect(() => get_random(testInput)).not.toThrow();
   });
 
