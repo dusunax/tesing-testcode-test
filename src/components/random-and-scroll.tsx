@@ -45,9 +45,7 @@ const RandomAndScroll = () => {
   }, [onscrollHandler, isThrottle]);
 
   return (
-    <div
-      style={{ height: "120vh", paddingTop: "30vh", boxSizing: "border-box" }}
-    >
+    <div>
       <div> Number: {num} </div>
       <div> Number 1~10: {numB} </div>
       <div> Scroll: {scroll} </div>
