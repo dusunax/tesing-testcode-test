@@ -4,6 +4,7 @@ import AddAndHandle from "./components/add-and-handle";
 import RandomAndScroll from "./components/random-and-scroll";
 import UnknownAndNever from "./components/unknown-and-never";
 import OOP from "./components/oop";
+import CallApplyBind from "./components/callApplyBind";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AddAndHandle />
       <UnknownAndNever />
       <OOP />
+      <CallApplyBind />
     </div>
   );
 }

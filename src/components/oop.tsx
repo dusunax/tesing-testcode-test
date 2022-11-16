@@ -5,7 +5,7 @@ export default function OOP() {
   // console.log(accounting);
   // console.log("아래는 accountingCopy");
   // console.log(accountingCopy);
-  console.log(IT);
+  // console.log(IT);
   // console.log(accounting.mostRecentReport);
 
   return <p>OOP</p>;
